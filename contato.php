@@ -39,16 +39,8 @@
     <center>
 
         <h1>Contato</h1>
-
-
-
-
-
-        <!-- From Uiverse.io by Praashoo7 -->
         <div class="card">
             <div class="img">
-
-
 
             </div>
             <span> Sobre mim </span>

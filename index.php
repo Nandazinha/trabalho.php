@@ -34,14 +34,16 @@
     </header>
     <hr>
 
-
     <center>
-
-        <h1>Vôlei e suas características</h1>
-
-
+        <h1>Video informativo sobre o vôlei e suas regras</h1>
+        <iframe width="800" height="400" src="https://www.youtube.com/embed/qc1wkTMmXY4?si=6nJhoVSl-XF_lUSd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
 
+
+    <center>
+        <h1>Vôlei e suas características</h1>
+
+    </center>
     <section>
         <div class="conteudo">
 
