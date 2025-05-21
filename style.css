@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ffffff;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        gap: 20px;
+    }
+
+    nav{
+        text-align: right;
+        margin-right: 30px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    #icon{
+        width: 10%;
+        margin-right: 10px;
+    }
+    .container{
+       flex: 1;
+       padding-left: 20px;
+       margin-right: 40px;
+       background-color: rgb(239, 238, 186);
+       border-radius: 10px;
+       border: #000000 solid 2px;
+    }
+    #capa{
+        width: 50%;
+        height: auto;
+        margin-left: 80px;
+        border:rgb(255, 234, 0) solid 3px;
+    }
+    .conteudo{
+       display: flex;
+       align-items: center;
+    }
+    .contem{
+        flex: 1;
+    }
+
+            .cards-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .card {
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                padding: 16px;
+                width: 200px;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .card h3 {
+                margin: 0 0 8px;
+                font-size: 18px;
+            }
+
+            .card p {
+                margin: 0 0 12px;
+                font-size: 14px;
+                color: #555;
+            }
+
+            .card .saiba-mais {
+                text-decoration: none;
+                color: #007BFF;
+                font-weight: bold;
+            }
+
+            .card .saiba-mais:hover {
+                text-decoration: underline;
+            }
+            footer{
+                text-align: center;
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #9cc8f4;
+                border-radius: 5px;
+            }
+             #footer2{
+                text-align: center;
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #ffff60;
+                border-radius: 5px;
+            }
+
+            .container2{
+       flex: 1;
+       padding-left: 20px;
+       margin-right: 40px;
+       background-color: rgb(159, 181, 230);
+       border-radius: 10px;
+       border: #000000 solid 2px;
+       }
+
+       #capa2{
+        width: 50%;
+        height: auto;
+        margin-left: 80px;
+        border:rgb(0, 55, 255) solid 3px;
+    }
+
+.task {
+  position: relative;
+  color: #2e2e2f;
+  cursor: move;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 1rem;
+  border: 3px dashed transparent;
+  max-width: 350px;
+  border: #000000 solid 2px;
+}
+
+.task:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  border-color: rgba(162, 179, 207, 0.2) !important;
+}
+
+.task p {
+  font-size: 15px;
+  margin: 1.2rem 0;
+}
+
+.tag {
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #1389eb;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  background: transparent;
+  border: 0;
+  color: #c4cad3;
+  font-size: 17px;
+}
+
+.options svg {
+  fill: #9fa4aa;
+  width: 20px;
+}
+
+.stats {
+  position: relative;
+  width: 100%;
+  color: #9fa4aa;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats div {
+  margin-right: 1rem;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.stats svg {
+  margin-right: 5px;
+  height: 100%;
+  stroke: #9fa4aa;
+}
+
+.viewer span {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(172, 163, 4);
+  margin-right: -10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px;
+}
+
+.viewer span svg {
+  stroke: #fff;
+}
+
+
+.form-container {
+  width: 400px;
+  background: rgb(251, 255, 178);
+  border: 2px solid black;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 90%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #000000;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 90%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #000000;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #0022ff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #0022ff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 600;
+  width: 40%;
+  background: #0018f5;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
